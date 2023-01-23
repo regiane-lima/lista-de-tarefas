@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonte google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Roboto:ital,wght@0,500;1,900&display=swap"
+        rel="stylesheet">
+
+    
+    <title>To Do List!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-field">
+            <textarea placeholder="Escreva a sua tarefa">
+            </textarea>
+
+            <div class="note">
+            <i class="material-symbols-outlined" onclick="adicionaTask()">
+                note_add
+            </i>
+           </div>
+        </div>
+
+        <ul class="todoLists">
+           
+           
+        </ul>
+        <div class="pending-tasks">
+              <span>Você tem</span>
+               <span class="pending-num">0</span> 
+               <span>tarefas pendentes</span> 
+        
+        <button class="clear-button">Limpar Tudo</button>
+        </div>
+    </div>
+    <!-- Javascript -->
+     <script src="script.js"></script>
+</body>
+
+</html>
